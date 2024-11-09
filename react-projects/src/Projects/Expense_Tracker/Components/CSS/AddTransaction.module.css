@@ -1,0 +1,30 @@
+.AddTransaction{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.formCotrol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.labels{
+    width: 20%;
+    text-align: start;
+}
+.inputs{
+    width: 69%;
+    border: none;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+.atBtn{
+    width: 50%;
+    height: 25px;
+    margin-top: 10px;
+    box-shadow: 0 6px 3px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    border-radius: 50px;
+    background-color: skyblue;
+    border: none;
+}

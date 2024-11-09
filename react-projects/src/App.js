@@ -1,10 +1,10 @@
 import './App.css';
-import Temp from './Projects/Temp';
+import ExpenseTracker from './Projects/Expense_Tracker/ExpenseTracker';
 
 function App() {
   return (
     <div className="App">
-    <Temp/>
+    <ExpenseTracker />
     </div>
   );
 }

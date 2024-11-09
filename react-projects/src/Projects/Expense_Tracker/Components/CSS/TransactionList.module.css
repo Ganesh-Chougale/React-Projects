@@ -1,0 +1,27 @@
+.TransactionList{
+    display: flex;
+    flex-direction: column;
+}
+.tlhr{
+    width: 90%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li{
+    width: 100%;
+    box-shadow: 0 6px 3px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.deletButton{
+    width: 7%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    color: red;
+    font-weight: bolder;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.24);
+}

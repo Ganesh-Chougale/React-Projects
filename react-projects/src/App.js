@@ -1,10 +1,12 @@
-import './App.css';
-import ExpenseTracker from './Projects/Expense_Tracker/ExpenseTracker';
+import style from "./App.module.css";
+import Counter from './Projects/Expense_Tracker/Counter';
+import RH_useEffect_05 from "./RH_useEffect_05";
 
 function App() {
   return (
-    <div className="App">
-    <ExpenseTracker />
+    <div className={style.AppMain}>
+    <Counter />
+    {/* <RH_useEffect_05/> */}
     </div>
   );
 }
